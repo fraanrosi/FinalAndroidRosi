@@ -5,13 +5,13 @@ import java.io.Serializable;
 /**
  * Created by Franco Rosi on 13/02/2018.
  */
-public class Datos implements Serializable {
+public class Pelicula implements Serializable {
     private int id;
     private String titulo;
     private String detalle;
     private int imagen;
 
-    public Datos(int imagen, int id, String titulo, String detalle) {
+    public Pelicula(int imagen, int id, String titulo, String detalle) {
         this.imagen = imagen;
         this.id = id;
         this.titulo = titulo;

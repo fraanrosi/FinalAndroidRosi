@@ -1,0 +1,40 @@
+{
+  "peliculas": [
+    {
+      "imagen": "2130837601",
+      "id": 0,
+      "titulo": "Ghost in the shell",
+      "detalle": "La mayor Mira Killian, un híbrido de cyborg y humana único en su especie, dirige un grupo operativo de élite de operaciones especiales llamado Sección 9 en un Japón futurista. Consagrada a detener a los extremistas y criminales más peligrosos, la Sección 9 se enfrenta a un enemigo cuyo objetivo principal consiste en anular los avances de Hanka Robotic, la empresa líder en el campo de la cibertecnología."
+    },
+    {
+      "imagen": "2130837601",
+      "id": 1,
+      "titulo": "Annabelle",
+      "detalle": "John a encontrado el regalo que tanto andaba buscando Mia, su esposa embarazada: Annabelle, una muñeca con un vestido de novia. Pero una noche, la casa de John y Mia es asaltada por los miembros de una secta satánica que terminan por atacar de forma violenta a la pareja."
+    },
+    {
+      "imagen": "2130837601",
+      "id": 2,
+      "titulo": "SAW 8",
+      "detalle": "Jigsaw está de vuelta. En esta ocasión atrapará a cinco personas y las enfrentará en una serie de juegos sangrientos como castigo por sus delitos. "
+      
+
+    },
+    {
+      "imagen": "2130837601",
+      "id": 3,
+      "titulo": "Loving Vincent",
+      "detalle": "Es el primer largometraje dibujado enteramente en óleo. La película cuenta la complicada vida del pintor holandés, que a pesar de su extensa obra, no logró vender ni una sola pintura en toda su vida."
+      
+
+    },
+    {
+      "imagen": "2130837601",
+      "id": 4,
+      "titulo": "Lights out",
+      "detalle": "Cuando Rebecca se fue de casa, pensó que había dejado atrás sus miedos de la niñez. A medida que iba creciendo, nunca estaba realmente segura de lo que era real o no cuando se apagaban las luces... "
+      
+
+    }
+  ]
+}

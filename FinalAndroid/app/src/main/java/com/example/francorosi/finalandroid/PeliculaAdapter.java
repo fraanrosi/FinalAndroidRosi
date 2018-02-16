@@ -13,12 +13,12 @@ import java.util.List;
 /**
  * Created by Franco Rosi on 13/02/2018.
  */
-public class Adaptador extends BaseAdapter {
+public class PeliculaAdapter extends BaseAdapter {
 
     Context contexto;
-    List<Datos> listaObjetos;
+    List<Pelicula> listaObjetos;
 
-    public Adaptador(Context contexto, List<Datos> listaObjetos) {
+    public PeliculaAdapter(Context contexto, List<Pelicula> listaObjetos) {
         this.contexto = contexto;
         this.listaObjetos = listaObjetos;
     }
@@ -45,7 +45,7 @@ public class Adaptador extends BaseAdapter {
         LayoutInflater inflate=LayoutInflater.from(contexto);
         vista= inflate.inflate(R.layout.listado_pelis,null);
 
-        ImageView imagen=(ImageView) vista.findViewById(R.id.imageView);
+        ImageView imagen=(ImageView) vista.findViewById(R.id.imgItem);
         TextView titulo=(TextView) vista.findViewById(R.id.textTitulo);
         TextView detalle=(TextView) vista.findViewById(R.id.textDetalle);
 

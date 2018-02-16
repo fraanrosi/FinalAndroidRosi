@@ -20,7 +20,7 @@ public class DetalleActivity extends AppCompatActivity {
         titulo = (TextView) findViewById(R.id.textTitulo);
         detalle = (TextView) findViewById(R.id.textDetalle);
 
-        Datos obj = (Datos) getIntent().getExtras().getSerializable("objeto");
+        Pelicula obj = (Pelicula) getIntent().getExtras().getSerializable("objeto");
 
         titulo.setText(obj.getTitulo());
         detalle.setText(obj.getDetalle());
