@@ -31,7 +31,7 @@ public class PeliculasApiClient {
     }
 
     //Genera un cliente para consumir la API por HTTP
-    private static PeliculasApi getClient() {
+    public static PeliculasApi getClient() {
         //Si el cliente no esta instanciado aun...
         if(client == null) {
             Retrofit retrofit = new Retrofit.Builder()

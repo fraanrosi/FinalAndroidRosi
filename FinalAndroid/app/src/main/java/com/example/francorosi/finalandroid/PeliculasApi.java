@@ -10,6 +10,12 @@ import retrofit2.http.GET;
  * Created by Franco Rosi on 16/02/2018.
  */
 public interface PeliculasApi {
-    @GET("https://api.myjson.com/bins/gwfzx")
+    @GET("peliculas")
     Call<List<Pelicula>> getPeliculas(); //El return type define como sera parseado automaticamente el response
+
+    @GET("ranking")
+    Call<List<Usuario>> getRanking(); //El return type define como sera parseado automaticamente el response
+
+
+
 }

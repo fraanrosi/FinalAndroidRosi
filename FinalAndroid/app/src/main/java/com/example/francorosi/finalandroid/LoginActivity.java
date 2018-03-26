@@ -12,7 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 
 
 /**
- * Activity donde se va a realizar el Login.
+ * Activity donde se va a realizar el Login fsdaefref.
  */
 public class LoginActivity extends AppCompatActivity {
 
@@ -25,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_login);
 
         context = this;

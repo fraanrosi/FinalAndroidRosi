@@ -23,7 +23,8 @@
         <activity android:name=".DetalleActivity" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity android:name=".RankingActivity"></activity>
     </application>
 
 </manifest>
